@@ -1,0 +1,29 @@
+#PyDev files
+*.project
+*.pydevproject
+.settings
+
+#PyCharm files
+.idea
+
+#Compiled Python Files
+*.pyc
+*.zip
+
+docs/_build
+
+# Bash scripts
+*.sh
+
+# Others
+*.swp
+*.chm
+
+# My scripts
+ui.make.bat
+
+*.chm
+.branch
+
+#sample form extension file
+ui/forms/ext/sample_extensions.py
