@@ -264,6 +264,15 @@ class ExcelWorkbookView(QWidget):
         """
         return self._ws_info.get(idx, None)
 
+    def current_worksheet_info(self):
+        """
+        :return: Returns the WorksheetInfo object for the current displayed
+        tab. None if the view is empty.
+        :rtype:WorksheetInfo
+        """
+        curr_idx = self._tbw.currentIndex()
+        return self.worksheet_info(curr_idx)
+
     @property
     def progress_bar(self):
         """
