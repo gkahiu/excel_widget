@@ -3,18 +3,18 @@
 
 ![ExcelView Screenshot](excel_widget.png)
 
-The ExcelWorkView is a PyQt4-based widget that enables the browsing of Excel (*.xls or *.xlsx) files. It provides a simple and familiar Excel-like interface for browsing one or more worksheets in an Excel file.
+The ExcelWorkView is a PyQt4-based widget that enables the browsing of Excel (*.xls or *.xlsx) files. It provides a simple and familiar Excel-like interface for browsing one or more worksheets contained in an Excel file.
 
 Key features include:
-* Vertical and horizontal (sequential uppercase) headers that mimick the Excel interface
+* Vertical and horizontal (sequential uppercase) headers that mimick the Excel worksheet view
 * Tab widgets at the bottom for selecting sheet tables
 * Progress bar for showing status when loading an Excel file
-* Based on a modular API design
+* Modular API design
  
 
 ### Pre-requisite
 
-The widget is dependent on the [xlrd](https://xlrd.readthedocs.io/en/latest/index.html) library for reading Excel data hence it must be installed prior. Installation instruction are available [here](https://xlrd.readthedocs.io/en/latest/installation.html).
+The widget is dependent on the [xlrd](https://xlrd.readthedocs.io/en/latest/index.html) library for reading Excel data hence it must be installed prior. Installation instructions are available [here](https://xlrd.readthedocs.io/en/latest/installation.html).
 
 ### Installation
 
